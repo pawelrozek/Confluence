@@ -1,0 +1,12 @@
+confluence:
+  image: confluence:6.1.2
+  container_name: confluence
+  restart: always
+  volumes:
+   - "/opt/atlassian:/var/atlassian"
+   - "/opt/conflogs:/opt/atlassian/confluence/logs"
+  ports:
+   - 8090:8090
+  environment:
+   - JVM_MIN_MEMORY="2048m"
+   - JVM_MAX_MEMORY="4096m"

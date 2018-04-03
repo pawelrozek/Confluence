@@ -1,0 +1,11 @@
+#install4j response file for Confluence 6.1.2
+#Tue Apr 3 09:30:00 EDT 2018
+#Created by Pawel Rozek
+executeLauncherAction$Boolean=true
+app.install.service$Boolean=true
+sys.confirmedUpdateInstallationString=false
+launch.application$Boolean=false
+existingInstallationDir=/opt/atlassian/confluence
+sys.languageId=en
+sys.installationDir=/opt/atlassian/confluence
+backupConfluence$Boolean=false
