@@ -1,6 +1,8 @@
-Created by Pawel Rozek on April 3, 2018
+Created by Pawel Rozek on April 4, 2018
 
-Atlassian Confluence 6.1.2
+Atlassian Confluence 6.8.1
+
+Based on latest CentOS
 
 Home Directory can be mapped as /var/atlassian/application-data/
 
@@ -15,6 +17,6 @@ Pre-Requesits:
       - /opt/atlassian
       - /opt/conflogs
 1. Clone files to Directory on your local machine
-2. Build image: docker build -t "confluence:6.1.2" ./
+2. Build image: docker build -t "confluence:6.8.1" ./
 3. Run docker-compose up -d
 4. Go to http://localhost:8090
