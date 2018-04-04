@@ -1,5 +1,5 @@
 confluence:
-  image: confluence:6.1.2
+  image: confluence:6.8.1
   container_name: confluence
   restart: always
   volumes:
